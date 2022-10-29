@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.alingCenter{
+    align-items: center;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.direct{
+    flex-direction: row;
+}
+
+@media (max-width: 800px){
+    .direct{
+        flex-direction: column;
+    }
+}

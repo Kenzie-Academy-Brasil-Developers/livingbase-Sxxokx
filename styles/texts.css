@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.font1Semibold{
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    font-size: 2.5rem;
+    line-height: 150%;
+}
+.font2Bold{
+    font-family: 'Inter', sans-serif;
+    font-weight:700;
+    font-size: 1.75rem;
+    line-height: 150%;
+}
+.font3Semibold{
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+.font4Semibold{
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    font-size: 1rem;
+    line-height: 150%;
+    text-decoration: none;
+    list-style: none;
+}
+.font4Regular{
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size: 1rem;
+    line-height: 150%;
+}
+.textGreen{
+    color: var(--color-brand-100);
+}
+.textGrey100{
+    color: var(--color-grey-100);
+}

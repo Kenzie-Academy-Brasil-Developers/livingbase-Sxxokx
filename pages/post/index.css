@@ -1,1 +1,126 @@
 /* Desenvolva seu estilo aqui */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+.container{
+    margin: 4rem 10%;
+}
+.sectionContentHeader{
+    height: 420px; 
+}
+.divsHeaderContent{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.imgHeader{
+    max-width: 100%;
+}
+.sectionMenu{
+ white-space: nowrap;
+ position: relative;
+}
+.buttonNext{
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100%;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(205, 212, 214,0.8);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 16px;  
+}
+.buttonNext:hover{
+    background-color: var(--color-grey-500);
+}
+.buttonReturn{
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(205, 212, 214,0.8);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.buttonReturn:hover{
+    background-color: var(--color-grey-500);
+}
+.displayNone{
+    display: none;
+}
+.lista{
+     overflow: hidden; 
+    overflow-y: scroll;
+    white-space: nowrap;
+    overflow-y:hidden;
+}
+.liProducts{
+    display: inline-block;
+    padding: 10px 22px;
+    background-color:var(--color-grey-700);
+    border-radius: 32px;
+    margin: 0 20px;
+}
+.liProducts:hover{
+    background-color:var(--color-brand-100);
+    color: var(--color-grey-700);
+}
+.linkProducts{
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+.containerHeader{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divP{
+    width: 50%;
+    color: var(--color-grey-300);
+}
+.backToTop{
+    color: var(--color-grey-700);
+    background-color: var(--color-grey-200);
+    padding: 0.625rem 1.375rem;
+    border-radius: 2rem;
+}
+.observer{
+height: 4rem;
+}
+.imgPagePost{
+    width: 100%;
+    margin: 6rem 0 3rem 0;
+    height: 25rem;
+    object-fit: cover;
+}
+.backToHomePage{
+    padding: 10px 22px;
+    background-color: var(--color-grey-700);
+    border-radius: 2rem;
+    color: var(--color-grey-200);
+}
+.backToHomePage:hover{
+    background-color: var(--color-grey-600);
+}
+footer{
+    width: 100%;
+    background-color:var(--color-grey-100);
+    height: 255px;
+    display: flex;
+    align-items: center;
+
+}

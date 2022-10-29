@@ -1,1 +1,138 @@
-/* Desenvolva seu estilo aqui */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+
+.container{
+    margin: 3rem 20%;
+}
+.sectionContentHeader{
+    height: 420px;  
+}
+.divsHeaderContainer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imgHeader{
+    margin: 0 auto;
+    max-width: 100%;
+	height: 90%;
+	object-fit: cover;
+    display: block;
+}
+.sectionMenu{
+ white-space: nowrap;
+ position: relative;
+ width: 60%;
+ margin: 0 auto;
+}
+.buttonNext{
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100%;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(205, 212, 214,0.8);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 16px;     
+}
+.buttonNext:hover{
+    background-color: var(--color-grey-500);
+}
+.buttonReturn{
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(205, 212, 214,0.8);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+.buttonReturn:hover{
+    background-color: var(--color-grey-500);
+}
+.displayNone{
+    display: none;
+
+}
+.categories-list {
+	display: flex;
+	overflow-x: auto;
+	padding: 10px 50px 0 0;
+	scroll-behavior: smooth;
+}
+
+.categories-list::-webkit-scrollbar {
+	visibility: hidden;
+}
+
+.liProducts{
+    display: inline-block;
+    padding: 10px 22px;
+    background-color:var(--color-grey-700);
+    border-radius: 32px;
+    margin: 0 20px;
+}
+
+.liProducts:hover{
+    background-color:var(--color-brand-100);
+    color: var(--color-grey-700);
+}
+.linkProducts{
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+.containerHeader{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divP{
+    width: 50%;
+    color: var(--color-grey-300);
+}
+.backToTop{
+
+    color: var(--color-grey-700);
+    background-color: var(--color-grey-200);
+    padding: 0.625rem 1.375rem;
+    border-radius: 2rem;
+}
+.observer{
+height: 4rem;
+}
+footer{
+    width: 100%;
+    background-color:var(--color-grey-100);
+    height: 255px;
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width: 800px){
+    .divsHeaderContainer{
+        width: 100%;
+    }
+    .imgHeader{
+        height: 200px;
+        width: 80rem;
+        border-radius: 0px 3rem 0px 3rem;
+    }
+    .container{
+        margin: 1rem 5%;
+    }
+}

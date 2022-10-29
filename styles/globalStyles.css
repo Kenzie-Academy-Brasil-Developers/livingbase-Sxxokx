@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 :root {
   --color-grey-100: #212529;
   --color-grey-200: #495057;
@@ -18,4 +17,14 @@
   --font-size-2: 1.75rem;
   --font-size-3: 1.25rem;
   --font-size-4: 1rem;
+}
+.logo{
+  width: 1.813rem; 
+  height: 1.425rem;
+  background-color: var(--color-brand-100);
+  border-radius: 0 0.375rem;
+  margin-right: 1rem;
+}
+button{
+  cursor: pointer;
 }
